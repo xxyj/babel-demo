@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel ./demo --out-file ./demo.js"
+    "start": "babel ./demo/babel-cli --watch --out-file ./demo/babel-cli.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   "dependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3"
+    "@babel/parser": "^7.2.3",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/traverse": "^7.2.3"
   }
 }
