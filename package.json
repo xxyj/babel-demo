@@ -1,0 +1,26 @@
+{
+  "name": "babel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel ./demo --out-file ./demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxyj/babel-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxyj/babel-demo/issues"
+  },
+  "homepage": "https://github.com/xxyj/babel-demo#readme",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
+}
