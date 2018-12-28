@@ -33,8 +33,8 @@ const visitor = {
   },
 }
 
-// const code = `numberAdd([1,3,5,6,7,8])`
-const code = `let test = (a,b)=>{return a+b}`
+ const code = `numberAdd([1,3,5,6,7,8])`
+//const code = `let test = (a,b)=>{return a+b}`
 const result = babel.transform(code, {
   plugins: [
     {
