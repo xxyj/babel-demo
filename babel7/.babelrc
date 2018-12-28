@@ -5,7 +5,7 @@
       {
         "modules": false,
         "targets": {
-          "browsers": ["> 10%"]
+          "browsers": ["> 0.1%", "iOS >= 7.0", "Android >= 4.3"]
         },
         "useBuiltIns": "usage"
       }

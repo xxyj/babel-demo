@@ -1,1 +1,1 @@
-Object.assign({},{a:1})
+Object.assign({},{a:1})·
